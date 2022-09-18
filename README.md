@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Staking Reward Contract 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This contract would reward user for staking token A by sending token A to them, this minium staking period is to be defined on deployment. If the minimum staking period is not met, the user would not be able to unstake token.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npx hardhat install
 ```
+
+read through the contract modifer and use as you wish
